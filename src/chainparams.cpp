@@ -101,10 +101,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0xf9;
-        pchMessageStart[1] = 0xbe;
-        pchMessageStart[2] = 0xb4;
-        pchMessageStart[3] = 0xd9;
+        pchMessageStart[0] = 0x83;
+        pchMessageStart[1] = 0xe5;
+        pchMessageStart[2] = 0xa3;
+        pchMessageStart[3] = 0xa3;
         nDefaultPort = 8383;
         nPruneAfterHeight = 100000;
         m_assumed_blockchain_size = 240;
