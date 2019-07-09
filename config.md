@@ -1,4 +1,11 @@
-## Data edited from source code of bitcoincore project
+git add .
+git commit -m ‘message-commit’
+git push origin master
+
+- Followed guide: https://bitcointalk.org/index.php?topic=3345808.msg35016844#msg35016844
+- Replace texts: http://cybernetnews.com/find-replace-multiple-files/
+
+# Data edited from source code of bitcoincore project  
 
 - nDefaultPort = 8383; in /src/chainparams.cpp file
 
